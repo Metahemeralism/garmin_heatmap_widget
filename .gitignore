@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Local runtime data — never commit personal Garmin data or tokens
+/data.json
+*.token
+*token*.json
+/.garmin_heatmap/
+
+# Claude Code local settings (machine-specific permission cache)
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# Generated launchd plist (created from the template by install.sh)
+com.garmin.heatmap.plist

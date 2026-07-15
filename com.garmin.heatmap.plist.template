@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Template. install.sh replaces __HOME__ with your real home directory and
+     writes the result to ~/Library/LaunchAgents/com.garmin.heatmap.plist.
+     launchd requires absolute paths, so it cannot use $HOME directly.
+     NOTE: no credentials live here — run.sh reads them from the Keychain. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.garmin.heatmap</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>__HOME__/.garmin_heatmap/run.sh</string>
+  </array>
+
+  <!-- Twice daily: 07:30 and 19:30. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Hour</key><integer>19</integer><key>Minute</key><integer>30</integer></dict>
+  </array>
+
+  <key>StandardErrorPath</key><string>/tmp/garmin_heatmap.log</string>
+  <key>StandardOutPath</key><string>/tmp/garmin_heatmap.log</string>
+</dict>
+</plist>
