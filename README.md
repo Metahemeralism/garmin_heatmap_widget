@@ -1,5 +1,7 @@
 # Garmin Performance Heatmaps for macOS
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A desktop widget ([Übersicht](https://tracesof.net/uebersicht/)) that turns your
 Garmin Connect data into GitHub-style contribution heatmaps — one row per metric —
 plus a single evidence-based **Daily Wellness Score**. Click any row to drill into
@@ -164,3 +166,7 @@ top of `garmin_fetch.py`.
 - This project talks to Garmin through the community
   [`garminconnect`](https://pypi.org/project/garminconnect/) library, which uses the same
   OAuth flow as Garmin's own apps. It is not affiliated with or endorsed by Garmin.
+
+## License
+
+[MIT](LICENSE)
