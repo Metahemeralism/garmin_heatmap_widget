@@ -16,6 +16,13 @@ Two parts:
 
 Credentials are stored in the **macOS Keychain**, never in a file or in this repo.
 
+<p align="center">
+  <img src="screenshots/dark-default.png" alt="Widget in dark mode showing the Wellness score and per-metric heatmaps" width="47%">
+  &nbsp;
+  <img src="screenshots/light-drilldown-settings.png" alt="Widget in light mode with the settings panel and a metric drilled into" width="47%">
+</p>
+<p align="center"><sub>Dark mode (default view) · Light mode (settings panel + Sleep drill-down)</sub></p>
+
 ---
 
 ## Features
@@ -30,6 +37,10 @@ Credentials are stored in the **macOS Keychain**, never in a file or in this rep
   average-by-weekday chart, and that metric's contribution to your score.
 - **Settings panel (⚙)** — choose which metrics to show and switch **light/dark** theme.
   Preferences persist across restarts.
+
+<p align="center">
+  <img src="screenshots/dark-drilldown-settings.png" alt="Settings panel open with the Wellness score breakdown drilled into, dark mode" width="60%">
+</p>
 
 ---
 
