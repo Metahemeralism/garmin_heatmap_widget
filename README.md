@@ -38,6 +38,7 @@ Credentials are stored in the **macOS Keychain**, never in a file or in this rep
 
 <p align="center">
   <img src="screenshots/dark-drilldown-settings.png" alt="Settings panel open with the Wellness score breakdown drilled into, dark mode" width="60%">
+  <img src="screenshots/light-drilldown-settings.png" alt="Widget in light mode with the settings panel and a metric drilled into" width="47%">
 </p>
 
 ---
